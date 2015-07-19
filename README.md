@@ -33,6 +33,11 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 5.  Wrote a new test suite named "New Feed Selection"
 5a. Write a test that ensures when a new feed is loaded by the loadFeed function that the content actually changes. Remember, loadFeed() is asynchronous.
 
+How to run:
+1.  Open the project's index.html file in any browser.  All tests should pass and the Jasmine results should show in green.
+2.  To ensure the tests are working properly, simply make changes to the code each test references, save the file, and refresh the index.html page.  The Jasmine result for the changed test should fail and show in red.
+
+
 Referenes:
 1.  Udacity forums
 2.  Javascript Testing Class
